@@ -30,3 +30,8 @@ def create():
 @bp.route("/update")
 def update():
     return {"message": "Welcome"}
+
+
+@bp.route("/delete", methods=("DELETE", ))
+def delete():
+    return {"message": "Welcome"}
